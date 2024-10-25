@@ -133,19 +133,16 @@ img {
 
 @media screen and (max-width: 480px) {
     .container {
-      max-width: 100%;
+      width: 100%;
       margin: 0 auto;
     }
     .row {
-        display: flex;
         display: block;
     }
-    .col {
+    .container .row .col {
       width: 100%;
     }
   }
-
-
 /* /Mobile */
 
 /* Tablet */
