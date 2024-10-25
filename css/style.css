@@ -137,7 +137,8 @@ img {
       margin: 0 auto;
     }
     .row {
-      display: block;
+        display: flex;
+        display: block;
     }
     .col {
       width: 100%;
